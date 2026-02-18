@@ -147,6 +147,28 @@ UI E2E
 	
 Captura de filtro + verificación de filas
 
+El usuario denominado deaj1 pudo ver los archivos filtrados por aceptado/rechazado
+
+PASS
+
+
+
+R9/UI9/R9_Bandeja de entrada deaj.png
+R9/UI/R9_Peticiones enviadas usuario.png
+
+R9/POSTMAN/R9_Status aprobado y rechazado.png
+R9/POSTMAN/R9_Status aprobado.png
+R9/POSTMAN/R9_Status rechazado.png
+
+R9/LOGS/R9_Logs.png
+
+R9/DB/R9_Archivos adjuntos.png
+R9/DB/R9_Peticiones encontradas.png
+R9/DB/R9_Status aprobados en la BD.png
+R9/DB/R9_Status rechazados en la BD.png
+
+Se realizaron las 4 pruebas y todas concluyen con éxito
+
 
 R10
 	
@@ -161,6 +183,25 @@ Funcional
 UI E2E
 	
 Captura bandeja DEAJ
+
+El usuario denominado Deaj1 pudo observar todos las peticiones enviadas
+
+PASSS
+
+
+
+R10/UI/R10_Bandeja de entrada deaj.png
+R10/UI/R10_Tramites aprobados.png
+R10/ui/R10_Tramites rechazados.png
+
+R10/POSTAM/R10_Bandeja de entrada.png
+R10/POSTMAN/R10_Login.png
+
+R10/DB/R10_Filtro aprobado.png
+R10/DB/R10_Filtro rechazado.png
+R10/DB/R10_Listado global.png
+
+Se realizaron las 3 pruebas y todas concluyeron con éxito
 
 
 R11
@@ -177,6 +218,24 @@ UI + DB
 	
 Captura + tramites.status + status_history
 
+El usuario deaj1 tomó una petición y esta paso al status EN_REVISION
+
+PASS
+
+
+
+R11/UI/R11_Bandeja en revision.png
+R11/UI/R11_Bandeja enviado.png
+
+R11/POSTAM/R1!_Error.png
+
+R11/DB/11_Acciones de una peticion.png
+R11/DB/R11_Integridad.png
+R11/DB/R11_Listado enviados.png
+R11/DB/R11_Status history.png
+R11/DB/R11_Tramite en revision.png
+
+Falló en postman a la hora de mostrar los resultados
 
 R12
 	
