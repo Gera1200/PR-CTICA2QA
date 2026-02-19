@@ -229,6 +229,20 @@ mismo tramite
 take simultáneo
 	
 1 ok 1 409
+
+Se valida take simultaneo de manera correcta 
+
+PASS
+
+
+
+R12/UI/R12 tramite enviado 1.png
+
+R12/Postman/.png 
+
+R12/BD/bd 	
+
+R12/Logs/Logs 
 	 	 	 	 	 	 	 	 
 
 R13
@@ -244,7 +258,21 @@ PDF resp
 aprobar
 	
 APROBADO + RESPONSE_PDF
-	 	 	 	 	 	 	 	 
+
+
+    Se valido la aprobación de manera correcta  
+
+    PASS
+
+
+
+     R13/UI/R13 Tramite aprobado.png
+
+     R13/Postman/Documento prueba2.png	
+
+     R13/BD/bd 	
+
+     R13/Logs/Logs 	 	 	 	 
 
 R14
 	
@@ -259,7 +287,21 @@ motivo vacío y luego texto
 reject
 	
 400 y luego RECHAZADO
-	 	 	 	 	 	 	 	 
+
+
+Se valida el flujo de manera correcta  por falta de texto, luego el rechazo con texto
+
+PASS
+
+
+
+R14/UI/R13 Tramite aprobado.png
+
+R14/Postman/Campo obligatorio.png	-R14/Postman/rechazo.png
+
+R14/BD/bd 	
+
+R14/Logs/Logs 	 	 	 	 	 	 
 
 R15
 	
@@ -275,3 +317,17 @@ download
 	
 200 + DOWNLOAD_PDF
 	 	 	 	 	 	 	 	 
+                                 
+Se valida la descarga del documento de manera correcta 
+
+PASS
+
+
+
+R15/UI/R15UI Detalle.png
+
+R15/Postman/R15 Postman1.png -- R15/Postman/R15 Postman2.png
+
+R15/BD/bd 	
+
+R15/Logs/Logs 
