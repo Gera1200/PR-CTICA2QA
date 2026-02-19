@@ -79,6 +79,23 @@ usuario1/xxx
 Login
 	
 Error + audit fail
+
+Resultado esperado: Se valida que el sistema permita ingresar con un usuario valido y muestre un mensaje de error si el usuario no es valido
+
+Estado: PASS
+
+Ev. UI: 
+R2\UI\interfaz.png
+
+Ev. API: 
+R2\POSTMAN\postman failed login.png
+
+Ev. BD: 
+R2\DB\FAIL.png
+
+Ev. Logs:NA
+
+Comentarios: SN/C
 	 	 	 	 	 	 	 	 
 
 R3
@@ -94,7 +111,28 @@ Usuario activo
 Login x5
 	
 LOCKED + audit
-	 	 	 	 	 	 	 	 
+
+Resultado esperado: Se vlaida que el sistema muestre un mensaje de error al intentar ingresar con un usuario no valido
+
+Estado: PASS
+
+Ev. UI: 
+R3\UI\bloqueo interfaz.png
+
+Ev. API: 
+R3\POSTMAN\login.png
+R3\POSTMAN\usuario bloqueado.png
+
+Ev. BD: 
+R3\DB\db blocked.png
+R3\DB\desbloqueo de usuario.png
+R3\DB\locked and fail locked.png
+R3\DB\usuario activado.png
+
+Ev. Logs:NA
+
+Comentarios: SN/C
+ 	 	 	 	 	 	 	 
 
 R4
 	
@@ -125,6 +163,24 @@ Crear trámite
 	
 ENVIADO + adjunto
 	 	 	 	 	 	 	 	 
+Resultado esperado: Se crea el tramite de manera correcta 
+
+Estado: PASS
+
+Ev. UI: 
+R5/UI/R5 tramite nuevo.png
+R5/UI/R5_error.png
+R5/UI/R5_Tramite Generado.png
+
+Ev. API: NA
+
+Ev. BD: 
+R5/BD/R5_Validación BD.png
+R5/BD/R5_Validación Carga PDF.png
+
+Ev. Logs: NA
+
+Comentarios: SN/C
 
 R6
 	
@@ -140,6 +196,24 @@ Crear
 	
 Error 400
 	 	 	 	 	 	 	 	 
+Resultado esperado: Se valida que el sistema muestre un mensaje de error indicando que no se permite cargar archivos diferentes a PDF
+
+Estado: PASS
+
+Ev. UI: 
+R6/UI/R6_Carga Doc.png
+R6/UI/R6_Carga Imagen.png 
+R6/UI/R6_Mensaje de errror.png
+
+Ev. API: 
+R6/API/R6_Postman_Carga archivo doc.png
+R6\API\R6_Postman_Carga archivo imagen.png
+
+Ev. BD: NA
+
+Ev. Logs:NA
+
+Comentarios: SN/C
 
 R7
 	
@@ -155,6 +229,23 @@ Crear
 	
 Error 400
 	 	 	 	 	 	 	 	 
+Resultado esperado: Se valida que el sistema no permite cargar archivos con un peso mayor a los 10mb
+
+Estado: PASS
+
+Ev. UI: 
+R7\UI\R7_Archivo mayor a 10mb.png
+R7\UI\R7_Mensaje de error.png
+
+Ev. API: 
+R7\API\R7_Validación API.png
+
+Ev. BD: 
+R7\BD\R7_Base de datos_Registro no Creado.png
+
+Ev. Logs:
+
+Comentarios: SN/C
 
 R8
 	
